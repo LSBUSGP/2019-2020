@@ -1,0 +1,10 @@
+Scrolling Texture
+
+In order to use the script to scroll the texture you will need to have the image texture of what you want 
+to scroll and make sure that it has a seemless transition. 
+In Unity you will need to create a new material but before that make sure to go the inspector of the image and change the 
+'Wrap Mode' to repeat. Afterwards you can simply drag the picture into the 'Albedo' setting in the Inspector of your new material.
+
+When you have your desired object with your desired material applied to it you also have to attach the script to the Game Object.
+When you know look at the Inspector of your Game Object you can see the variables 'ScrollX' and 'ScrillY', theese allow you to
+change the direction and speed of the scrolling.

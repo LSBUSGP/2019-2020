@@ -1,0 +1,3 @@
+I didn't manage to get this brief to work and it was harder than it appeared on the surface.
+My first method I tried to find the angle between the player and where the enemy was and have the enemy rotate to it
+but that didn't work. I managed to find a tutorial on some forums for Intercept calculation code but it didn't do quite what I wanted 

@@ -1,0 +1,1 @@
+After attatching the ShuffleScript to an object, pass in all of the desired tracks into the tracklist array. When you would like to shuffle the tracks, call the Shuffle() function. This will return the shuffled array.

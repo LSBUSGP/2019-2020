@@ -1,0 +1,12 @@
+Documentation
+
+In order to use the Speedometer, the script: 'speed_detection', the object you want to measure the speed of needs
+to have a 'Rigidbody2D' atached to it. You will need to have a Canvas and Text in your scene to show the speed.
+
+In the script, in line 20, the speed from the 'Rigidbody2D' gets multiplied to convert into miles per hour. 
+If you want to change to a different unit you will just have to change the factor after the * to the right scale factor
+of meters per second to your preffered unit. 
+
+In line 21 it prints the speed on the text field in the scene. The "F1" rounds our number to one decimal place,
+you can change that to your liking if you prefer more or less. You can customize the text you want it show
+where the " mph" is located in the script. You can further adept wich font you want in Unity.

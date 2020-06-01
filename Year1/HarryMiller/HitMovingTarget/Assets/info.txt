@@ -1,0 +1,1 @@
+To use this, you must attatch the BulletController script to whatever objects you would like to move towards the player (most likely a bullet prefab). You must then tag the object to be hit as "Player". Now, whenever a bullet is spawned, it will move towards where the player should be. The player MUST have a Rigidbody2D for this to work.
